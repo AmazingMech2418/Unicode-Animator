@@ -6,4 +6,4 @@ document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].styl
 }
 
 function getChars() {var i=1;while (String.fromCharCode(i)!==String.fromCharCode(333333333333333333333333333333)) {i++;} var arr = [];for(var a = 0; a<i; a++) {arr.push(String.fromCharCode(a+1));} return arr.join();}var chars = getChars();var eee; var i = 0; var len = getChars().length;function go() {document.body.innerHTML += '<p></p>';  document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].innerHTML=chars[i]; document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.position = "absolute";document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.left = Math.floor((Math.random() * 1000) + 1)+"px";
- document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.top = Math.floor((Math.random() * 1000) + 1)+"px";style(); i++; if(a>len-2){clearInterval(this);}} setInterval(go,10);
+ document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.top = Math.floor((Math.random() * 1000) + 1)+"px";style(); i++; if(i>len-2){clearInterval(this);}} setInterval(go,10);
