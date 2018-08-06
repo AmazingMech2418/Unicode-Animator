@@ -1,7 +1,7 @@
 var colors = ["red","orange","yellow","green","blue","purple"];var p="p";
 function style () {
 document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.color = colors[Math.floor(Math.random()*colors.length)];
- document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
+// document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
 document.getElementsByTagName(p)[document.getElementsByTagName(p).length-1].style.fontSize = Math.floor(Math.random()*200)+"px";
 }
 
